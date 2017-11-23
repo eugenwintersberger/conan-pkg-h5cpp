@@ -1,6 +1,9 @@
 #include <iostream>
-#include "hello.h"
+#include <h5cpp/hdf5.hpp>
+
+using namespace hdf5;
 
 int main() {
-    hello();
+
+  file::File f = file::create("example.h5",file::AccessFlags::TRUNCATE);
 }
