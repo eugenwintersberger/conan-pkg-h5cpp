@@ -3,7 +3,7 @@ from conans import ConanFile, CMake, tools
 
 class h5cppConan(ConanFile):
     name = "h5cpp"
-    version = "0.1"
+    version = "0.0.4"
     license = "<Put the package license here>"
     url = "<Package recipe repository url here, for issues about the package>"
     description = "Conan package for the HDF5 C++ wrapper"
