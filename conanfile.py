@@ -17,7 +17,8 @@ class h5cppConan(ConanFile):
     requires = ("Boost/1.62.0@lasote/stable",
                 "hdf5/1.10.1@eugenwintersberger/testing",
                 "gtest/1.8.0@conan/stable",
-                "zlib/1.2.8@conan/stable")
+                "zlib/1.2.8@conan/stable"
+                "bzip2/1.0.6@conan/stable")
     default_options = "shared=True","commit=None"
     generators = "cmake"
     
