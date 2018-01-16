@@ -42,7 +42,6 @@ class h5cppConan(ConanFile):
         self.options["hdf5"].shared=True
         self.options["gtest"].shared=True
         self.options["zlib"].shared=True
-        self.options["Boost"].python=False
         
         #if auto_update is active we add the current remote commit to the build options
         if self.auto_update: 
